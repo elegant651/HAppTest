@@ -1,0 +1,14 @@
+{
+  "steps": [
+    {
+      "command": "cargo",
+      "arguments": [
+        "build",
+        "--release",
+        "--target=wasm32-unknown-unknown",
+        "--target-dir=/Users/willpark/nix-holochain/lists/target"
+      ]
+    }
+  ],
+  "artifact": "/Users/willpark/nix-holochain/lists/target/wasm32-unknown-unknown/release/lists.wasm"
+}
